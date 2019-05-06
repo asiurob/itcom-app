@@ -1,0 +1,47 @@
+.black-cover {
+    background: #000;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    top: 0;
+}
+
+.starwars-section {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    perspective: 300px;
+    color: #feda4a;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 10rem;
+    font-weight: 600;
+    letter-spacing: 6px;
+    line-height: 150%;
+    text-align: justify;
+  }
+
+  @keyframes runText {
+    0% {
+      top: 75%;
+      transform: rotateX(20deg) translateZ(0);
+    }
+    100% { 
+      top: -600px;
+      transform: rotateX(25deg) translateZ(-500px);
+    }
+  }
+
+  .starwars-text {
+    position: relative;
+    transform-origin: 50% 100%;
+    animation: runText 15s linear;
+  }
+
+  .no-intro {
+    position: fixed;
+    right: 5px;
+    top: 5px;
+    z-index: 2;
+  }

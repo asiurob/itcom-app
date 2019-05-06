@@ -1,1 +1,66 @@
 /* You can add global styles to this file, and also import other style files */
+html, body {
+    height: 100% !important;
+    width: 100% !important;
+    overflow: hidden !important;
+}
+
+.star {
+    background: #fff;
+    height: 3px;
+    width: 3px;
+    position: fixed;
+    border-radius: 50%;
+    transition: all .5s ease-in-out;
+}
+
+.star:hover {
+    transform: scale(4);
+    -webkit-filter: blur(0.5px);
+    -moz-filter: blur(0.5px);
+    -o-filter: blur(0.5px);
+    -ms-filter: blur(0.5px);
+    filter: blur(0.5px);
+}
+
+.starlight {
+    transform: scale(4);
+    -webkit-filter: blur(0.5px);
+    -moz-filter: blur(0.5px);
+    -o-filter: blur(0.5px);
+    -ms-filter: blur(0.5px);
+    filter: blur(0.5px);
+}
+
+.fadeOut {
+    -webkit-animation: fadeOut 1s;
+       -moz-animation: fadeOut 1s;
+        -ms-animation: fadeOut 1s;
+         -o-animation: fadeOut 1s;
+            animation: fadeOut 1s;
+}
+
+@keyframes fadeOut {
+    from { opacity: 1; }
+    to   { opacity: 0; }
+}
+
+@-moz-keyframes fadeOut {
+    from { opacity: 1; }
+    to   { opacity: 0; }
+}
+
+@-webkit-keyframes fadeOut {
+    from { opacity: 1; }
+    to   { opacity: 0; }
+}
+
+@-ms-keyframes fadeOut {
+    from { opacity: 1; }
+    to   { opacity: 0; }
+}
+
+@-o-keyframes fadeOut {
+    from { opacity: 1; }
+    to   { opacity: 0; }
+}

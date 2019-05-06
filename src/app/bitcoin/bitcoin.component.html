@@ -1,0 +1,14 @@
+<div class="flex">
+  <div class="flex-item">
+      <div id="chart" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+
+      <hr>
+      <label>Selecciona un periódo</label>
+      <select (change)="changeData( $event.target.value )" class="form-control form-control-sm w-25">
+        <option selected value="1">Hace 1 hora</option>
+        <option value="6">Hace 6 horas</option>
+        <option value="12">Hace 12 horas</option>
+        <option value="24">Hace 24 horas</option>
+      </select>
+  </div>
+</div>
