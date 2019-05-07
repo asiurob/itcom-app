@@ -1,4 +1,4 @@
-# Proyecto de proyección del Bitcoin
+# Proyecto Bitcoin
 
 ## Uso
 Inicialmente encontraremos el `Cover de STAR-WARS` este se puede saltar con un botón en la esquina o esperar 15 segundos y se quitará solo. La gráfica se precarga con 1 hora de recopilación de datos del bitcoin, sin embargo podemos cambiar la proyección a 6, 12 y 24 horas, esto depende de cuantos registros existan en la base de datos
