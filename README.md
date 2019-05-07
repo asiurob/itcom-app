@@ -1,27 +1,8 @@
-# IcomApp
+# Proyecto de proyección del Bitcoin
+Inicialmente encontraremos el `Cover de STAR-WARS` este se puede saltar con un botón en la esquina
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.0.
+## Instalación
+El proyecto corre con [MongoDB](https://www.mongodb.com/what-is-mongodb), [Nodejs](https://nodejs.org/en/) y podemos bajar las dependencias más importantes por medio de `npm` como Angular `npm install -g @angular/cli` y Express `npm install express`
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## Volver a organizar el código
+Ejecutar la línea `npm install` una vez clonado el proyecto y estando en la carpeta icom-app, las dependencias ya están listas para ser usadas
